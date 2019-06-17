@@ -1,6 +1,7 @@
 <?php
   include_once('conexao.php');
 ?>
+
 <html>
 <head>
 	<title>Livros</title>
@@ -10,8 +11,7 @@
 	<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
 </head>
 <body>
-
-<div style="max-width: 1300px; margin-left: 15px">
+	<div style="max-width: 1300px; margin-left: 15px">
 
 	<div>
 		<img src="imagens/banner.png" width="1300" height="175">
@@ -32,8 +32,7 @@
   	</div>
 
 	</nav>
-
-  <br><br>
+	<br><br>
 
   <?php
 
@@ -87,5 +86,7 @@
   }
   mysqli_close($conexao);
 ?>
+
+</div>
 </body>
 </html>
